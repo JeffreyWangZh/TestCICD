@@ -1,3 +1,2 @@
 npm install
-cd ./vue-project
-npm install && npm run build
+az webapp up --sku F1 --name eform20220513 --os-type Windows
